@@ -1,0 +1,81 @@
+
+  
+
+   
+    
+body{
+    background-color: cornsilk;
+    }
+
+div {
+    display: block;
+    position: relative;
+  }
+  
+  div::after {
+    content: "";
+    background-image: url('https://images7.alphacoders.com/543/thumb-350-543956.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;  
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+    
+
+header > h1{
+    padding: 60px 40px 60px 40px;
+    text-align: center;
+     background: rgb(223, 219, 14);
+     text-shadow: none; 
+    color: black;
+     font-size: 50px;
+    font-weight: bolder;
+     fill-opacity: 1;
+     height: fit-content;
+    border-radius: 10px;
+  
+    
+ 
+}
+    
+h3{
+   background-color: rgb(100,100,100);
+   color: rgb(10, 1, 12) ;
+   border-radius: 100px;
+}
+#title{
+    margin-top: 0.5em;
+    text-align: center;
+    font-size: 4em;
+}
+.button-elm{
+    margin: auto;
+    margin-top: 5.75em;
+    width: 15%;
+    height: 2.75em;
+    font-size: 1.5em;
+    border-radius: 0.3em;
+    color: rgb(77, 5, 126);
+    display: block;
+}
+footer{
+    text-align: center;
+}
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
